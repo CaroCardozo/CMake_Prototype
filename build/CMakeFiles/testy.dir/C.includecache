@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/caro/Documents/JohnDeere/Cmake_prototype/src/customer.c
+testy/customer.h
+/home/caro/Documents/JohnDeere/Cmake_prototype/src/testy/customer.h
+
+/home/caro/Documents/JohnDeere/Cmake_prototype/src/main.c
+testy/customer.h
+/home/caro/Documents/JohnDeere/Cmake_prototype/src/testy/customer.h
+testy/widget.h
+/home/caro/Documents/JohnDeere/Cmake_prototype/src/testy/widget.h
+
+/home/caro/Documents/JohnDeere/Cmake_prototype/src/testy/customer.h
+
+/home/caro/Documents/JohnDeere/Cmake_prototype/src/testy/widget.h
+
+/home/caro/Documents/JohnDeere/Cmake_prototype/src/widget.c
+testy/widget.h
+/home/caro/Documents/JohnDeere/Cmake_prototype/src/testy/widget.h
+
